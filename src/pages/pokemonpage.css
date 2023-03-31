@@ -1,0 +1,119 @@
+.main-pokemon {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.header-main-pokemon {
+	margin-top: 20px;
+
+	display: flex;
+	align-items: center;
+
+	position: relative;
+}
+
+.number-pokemon {
+	position: absolute;
+	top: -50px;
+	left: 0;
+
+	font-size: 100px;
+	font-weight: 700;
+	color: rgb(236, 114, 185);
+}
+
+.container-img-pokemon {
+	order: 2;
+	flex: 1;
+	padding: 25px 25px 25px 0;
+	height: 400px;
+}
+
+.container-img-pokemon img {
+	height: 70%;
+	width: 70%;
+}
+
+.container-info-pokemon {
+	display: flex;
+	flex-direction: column;
+	order: 1;
+	flex: 1;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+.container-info-pokemon h1 {
+	text-align: right;
+	font-size: 60px;
+    font-family: "Sofia", sans-serif;
+    
+}
+
+.info-pokemon {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.group-info{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.group-info p {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+/* Stats */
+.container-stats {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.stats {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+}
+
+.stat-group {
+	display: flex;
+	align-items: center;
+	gap: 3px;
+}
+
+.stat-group span {
+	flex: 50%;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.progress-bar {
+	width: 60%;
+	height: 25px;
+	background-color: rgb(61, 202, 195);
+	border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn button {
+    border-style: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #30a7d7;
+    color: #fff;
+    font-size: 1em;
+}

@@ -1,0 +1,63 @@
+p {
+    margin: 0;
+    font-size: small;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Card {
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.Card__img {
+    text-align: center;
+}
+
+.Card__types {
+    display: flex;
+    justify-content: center;    
+}
+
+.Card__type {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+.Card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic");
+.Card__info {
+    margin: 12px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Roboto Mono";
+    font-size: xx-small;
+}
+
+.Card__data {
+    padding-bottom: 5px;
+    background-color: #EBDEF0;
+}
+
+.Card__data .title {
+    font-weight: 700;
+}
