@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import About from './pages/About';
@@ -8,7 +8,7 @@ import './App.css'
 
 export default function App() {
   return (
-    <>
+    <HashRouter>
         <Navbar />
         <div className='container'>
           <Routes>
@@ -17,7 +17,7 @@ export default function App() {
             <Route path="pokemon/:id" element={<PokemonPage/>} />
           </Routes>
         </div>
-    </>
+    </HashRouter>
   );
 }
 
